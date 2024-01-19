@@ -1,5 +1,4 @@
 import os
-#import RoboFinder
 target = input("enter target: ")
 print(" gau is running")
 print("\n")
@@ -14,7 +13,3 @@ print("\n")
 c = os.system(f"waybackurls {target} | uro | anew flinks")
 print("robofinder is running")
 print("\n")
-#s = RoboFinder.links()
-#for i in s:
- #   h = f"{RoboFinder.url}" + i
-  #  os.system(f"echo {h} | anew flinks")
